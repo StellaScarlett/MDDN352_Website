@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-  margin: 0;
+margin: 0;
 
 body {
   background-color: #FEF1F1;
@@ -70,12 +70,12 @@ img {
 }
 
 P,h2.blocktext {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    color: #363f58;
-	font-family: 'calibri', sans-serif;
-  }
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: #363f58;
+  font-family: 'calibri', sans-serif;
+}
 
 #Aim{
 	position: relative; top: -40px;
@@ -85,8 +85,16 @@ P,h2.blocktext {
 	position: relative; top: +220px;
 }
 
+#content {
+  width: 800px;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
 
-  @media screen and (max-width: 600px) {
+
+@media screen and (max-width: 600px) {
   ul.topnav li.right, 
   ul.topnav li {float: none;}
   .column {
